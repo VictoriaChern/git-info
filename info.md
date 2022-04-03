@@ -18,3 +18,8 @@ git commit
 ```sh
 git status
 ```
+
+Чтобы посмотреть все коммиты:
+```sh
+git log
+```
