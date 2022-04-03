@@ -29,7 +29,12 @@ git log
 git diff
 ```
 
-Для перехода к прошлым коммитам можно использовать:
+Для перехода к прошлым коммитам (с кодом commit_code) можно использовать:
 ```sh
-git checkout
+git checkout commit_code
+```
+
+и чтобы вернуться:
+```sh
+git checkout master
 ```
