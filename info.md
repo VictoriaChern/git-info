@@ -69,6 +69,11 @@ git checkout <branch_name>
 git merge <branch_name>
 ```
 
+13. Для того, чтобы удалить ветку <branch_name>:
+```sh
+git branch -d <branch_name>
+```
+
  ## Основные команды Git
  ***
 
@@ -86,3 +91,4 @@ git merge <branch_name>
 | `git branch <branch_name>` | создать новую ветку |
 | `git checkout <branch_name>` | переход на другую ветку |
 | `git merge <branch_name>` | обьеденить текущую ветку с веткой <branch_name> |
+| `git branch -d <branch_name>` | удалить ветку |
