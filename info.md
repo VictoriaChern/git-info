@@ -59,6 +59,11 @@ git branch
 git branch <branch_name>
 ```
 
+11. Для того, чтобы удалить ветку <branch_name>:
+```sh
+git branch -d <branch_name>
+```
+
  ## Основные команды Git
  ***
 
@@ -74,3 +79,4 @@ git branch <branch_name>
 | `git diff` | увидеть разницу между текущим файлом и закоммиченным файлом |
 | `git branch` | посмотреть ветки |
 | `git branch <branch_name>` | создать новую ветку |
+| `git branch -d <branch_name>` | удалить ветку |
