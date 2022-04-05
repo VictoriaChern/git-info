@@ -49,7 +49,7 @@ git checkout <commit_code>
 git checkout master
 ```
 
-9. Для просмотра всех веток:
+9. Для просмотра всех веток (см. [инструкцию](https://git-scm.com/docs/git-branch)):
 ```sh
 git branch
 ```
@@ -59,17 +59,17 @@ git branch
 git branch <branch_name>
 ```
 
-11. Для перехода к ветке <branch_name>:
+11. Для перехода к ветке <branch_name> (см. [инструкцию](https://git-scm.com/docs/git-checkout)):
 ```sh
 git checkout <branch_name>
 ```
 
-12. Для совмещения текущей ветки с веткой <branch_name>:
+12. Для совмещения текущей ветки с веткой <branch_name> (см. [инструкцию](https://git-scm.com/docs/git-merge)):
 ```sh
 git merge <branch_name>
 ```
 
-13. Для того, чтобы удалить ветку <branch_name>:
+13. Для того, чтобы удалить ветку <branch_name> (см. [инструкцию](https://git-scm.com/docs/git-branch)):
 ```sh
 git branch -d <branch_name>
 ```
