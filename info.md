@@ -59,7 +59,12 @@ git branch
 git branch <branch_name>
 ```
 
-11. Для совмещения текущей ветки с веткой <branch_name>:
+11. Для перехода к ветке <branch_name>:
+```sh
+git checkout <branch_name>
+```
+
+12. Для совмещения текущей ветки с веткой <branch_name>:
 ```sh
 git merge <branch_name>
 ```
@@ -74,9 +79,10 @@ git merge <branch_name>
 | `git add` |добавить файл или файлы к следующему коммиту|
 | `git commit -m “message”` | создание коммита |
 | `git log` |вывод на экран истории всех коммитов с их хеш-кодами|
-| `git checkout`  |переход от одного коммита к другому|
+| `git checkout <commit_code>`  |переход от одного коммита к другому|
 | `git checkout master`|  вернуться к актуальному состоянию и продолжить работу|
 | `git diff` | увидеть разницу между текущим файлом и закоммиченным файлом |
 | `git branch` | посмотреть ветки |
 | `git branch <branch_name>` | создать новую ветку |
+| `git checkout <branch_name>` | переход на другую ветку |
 | `git merge <branch_name>` | обьеденить текущую ветку с веткой <branch_name> |
