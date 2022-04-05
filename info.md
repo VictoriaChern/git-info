@@ -59,6 +59,11 @@ git branch
 git branch <branch_name>
 ```
 
+11. Для совмещения текущей ветки с веткой <branch_name>:
+```sh
+git merge <branch_name>
+```
+
  ## Основные команды Git
  ***
 
@@ -74,3 +79,4 @@ git branch <branch_name>
 | `git diff` | увидеть разницу между текущим файлом и закоммиченным файлом |
 | `git branch` | посмотреть ветки |
 | `git branch <branch_name>` | создать новую ветку |
+| `git merge <branch_name>` | обьеденить текущую ветку с веткой <branch_name> |
